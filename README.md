@@ -1,6 +1,8 @@
-# SEL knihovna
+# SEL Library
 
-Referenční knihovna pojmů sociálně-emočního učení (SEL), psychologie a příbuzných oborů.
+**Referenční slovník pojmů sociálně-emočního učení**
+
+Knihovna pojmů sociálně-emočního učení (SEL), psychologie a příbuzných oborů v češtině.
 Vydává **SEL Institute, z. s.** Projekt vede Libor Webster.
 
 Každé heslo popisuje, co pojem tvrdí, kdo ho formuloval a kdy, co je z něj doložené, co je
