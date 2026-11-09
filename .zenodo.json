@@ -1,0 +1,40 @@
+{
+  "title": "SEL Library: referenční slovník pojmů sociálně-emočního učení",
+  "upload_type": "publication",
+  "publication_type": "book",
+  "description": "<p>Referenční slovník pojmů sociálně-emočního učení (SEL), psychologie a příbuzných oborů v češtině. Každé heslo popisuje, co pojem tvrdí, kdo ho formuloval a kdy, co je z něj doložené, co je sporné a kým, co prakticky funguje bez ohledu na spor a kde se s ním člověk běžně setká. Každé faktické tvrzení má dohledatelný zdroj. U každého hesla je uvedena opora (jak silně je pojem doložený) a kdo heslo ověřil a kdy.</p><p>Hesla píše a kontroluje AI linka, nezávisle je ověřuje sel-qa. Projekt vede Libor Webster.</p><p>Web: <a href=\"https://selinstitute.cz/knihovna/\">https://selinstitute.cz/knihovna/</a></p>",
+  "creators": [
+    {
+      "name": "SEL Institute, z. s."
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Webster, Libor",
+      "type": "ProjectLeader",
+      "orcid": "0009-0003-6994-6339",
+      "affiliation": "SEL Institute, z. s."
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "ces",
+  "version": "2026.11",
+  "keywords": [
+    "sociálně-emoční učení",
+    "social-emotional learning",
+    "psychologie",
+    "psychology",
+    "slovník pojmů",
+    "glossary",
+    "SKOS"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://selinstitute.cz/knihovna/",
+      "relation": "isVariantFormOf",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Hesla píše a kontroluje AI linka, nezávisle je ověřuje sel-qa. Projekt vede Libor Webster."
+}

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: Při citaci uveďte verzi knihovny (DOI) a adresu hesla na webu.
+title: 'SEL Library: referenční slovník pojmů sociálně-emočního učení'
+type: dataset
+authors:
+- name: SEL Institute, z. s.
+  website: https://selinstitute.cz
+license: CC-BY-4.0
+url: https://selinstitute.cz/knihovna/
+repository-code: https://github.com/selinstitute/sel-knihovna
+version: '2026.11'
+date-released: '2026-11-09'
+keywords:
+- sociálně-emoční učení
+- social-emotional learning
+- psychologie
+- psychology
+- slovník pojmů
+- glossary
+- SKOS
+abstract: Referenční slovník pojmů sociálně-emočního učení (SEL), psychologie a příbuzných oborů v češtině.
+  Každé heslo popisuje, co pojem tvrdí, kdo ho formuloval a kdy, co je z něj doložené, co je sporné a
+  kým, co prakticky funguje bez ohledu na spor a kde se s ním člověk běžně setká. Každé faktické tvrzení
+  má dohledatelný zdroj. U každého hesla je uvedena opora (jak silně je pojem doložený) a kdo heslo ověřil
+  a kdy. Hesla píše a kontroluje AI linka, nezávisle je ověřuje sel-qa. Projekt vede Libor Webster.

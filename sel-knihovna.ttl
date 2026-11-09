@@ -1,0 +1,1162 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://selinstitute.cz/knihovna/> a skos:ConceptScheme ;
+    dct:title "SEL Library: referenční slovník pojmů sociálně-emočního učení"@cs ;
+    dct:publisher "SEL Institute, z. s." ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    owl:versionInfo "2026.11" .
+
+<https://selinstitute.cz/knihovna/aai/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Adult Attachment Interview (AAI)"@cs ;
+    skos:prefLabel "Adult Attachment Interview"@en ;
+    skos:altLabel "AAI" ;
+    skos:definition "Semistrukturovaný hodinový rozhovor o raných vztahových vzpomínkách, který ke klasifikaci dospělého do attachmentové kategorie nepoužívá obsah vzpomínek, ale způsob, jakým o nich dotyčný mluví (koherenci vyprávění) - metodologicky odlišná tradice od sebeposuzovacích dotazníků attachmentového stylu."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-attachmentu/> ;
+    skos:related <https://selinstitute.cz/knihovna/metoda-neznama-situace/> ;
+    skos:related <https://selinstitute.cz/knihovna/styly-citove-vazby-v-dospelosti/> ;
+    skos:related <https://selinstitute.cz/knihovna/vnitrni-pracovni-modely/> ;
+    skos:related <https://selinstitute.cz/knihovna/mentalizace/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/aaq-ii/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Acceptance and Action Questionnaire-II (AAQ-II)"@cs ;
+    skos:prefLabel "Acceptance and Action Questionnaire-II"@en ;
+    skos:altLabel "AAQ-II" ;
+    skos:definition "Sedmipoložkový sebeposuzovací dotazník z terapie přijetí a závazku (Acceptance and Commitment Therapy, ACT), který má měřit psychologickou inflexibilitu / vyhýbání se zkušenosti. Autoři: Bond, Hayes, Baer, Carpenter, Guenole, Orcutt, Waltz a Zettle (2011); dnes nejpoužívanější nástroj svého druhu, ale kriticky zpochybněný co do toho, co ve skutečnosti měří."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/psychologicka-flexibilita/> ;
+    skos:related <https://selinstitute.cz/knihovna/vyhybani-se-zkusenosti/> ;
+    skos:related <https://selinstitute.cz/knihovna/akceptace/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/afektivni-souladeni/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Afektivní souladění (affect attunement)"@cs ;
+    skos:prefLabel "affect attunement"@en ;
+    skos:definition "Vzorec interakce mezi pečující osobou a kojencem, při kterém pečující osoba nenapodobuje doslova dítěte chování, ale jiným kanálem (hlasem, mimikou, pohybem) vyjádří stejnou intenzitu, rytmus a tvar prožívané emoce – čímž dítěti ukáže, že pochopila kvalitu jeho vnitřního stavu, ne jen jeho vnější projev."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/intersubjektivita/> ;
+    skos:related <https://selinstitute.cz/knihovna/koregulace/> ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-attachmentu/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/akceptace/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Akceptace (Steven C. Hayes, ACT)"@cs ;
+    skos:prefLabel "acceptance"@en ;
+    skos:altLabel "Přijetí (ACT)" ;
+    skos:definition "Jedna z šesti dovedností hexaflexu terapie přijetí a závazku (Acceptance and Commitment Therapy, ACT) Stevena Hayese: ochota zůstat v přímém, nevyhýbavém kontaktu s nepříjemnými myšlenkami, pocity, tělesnými pocity a vzpomínkami, bez snahy změnit jejich formu nebo frekvenci nebo jim uniknout. Je to protiklad vyhýbání se zkušenosti (experiential avoidance)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/psychologicka-flexibilita/> ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-defuze/> ;
+    skos:related <https://selinstitute.cz/knihovna/pozorujici-ja/> ;
+    skos:related <https://selinstitute.cz/knihovna/hodnotove-orientovane-jednani/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/alostaticka-zatez/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Alostatická zátěž"@cs ;
+    skos:prefLabel "Allostatic load"@en ;
+    skos:definition "Alostatická zátěž je kumulativní fyziologické „opotřebení“ organismu, které vzniká, když se tělo opakovaně nebo dlouhodobě musí aktivně přizpůsobovat zátěži (přes osu hypotalamus–hypofýza–nadledviny a autonomní nervový systém), místo aby se jen vracelo k jednomu stabilnímu klidovému bodu."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/obecny-adaptacni-syndrom/> ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-nervovy-system/> ;
+    skos:related <https://selinstitute.cz/knihovna/chronicky-stres/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/automaticke-myslenky/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Automatické myšlenky (Aaron Beck)"@cs ;
+    skos:prefLabel "automatic thoughts"@en ;
+    skos:definition "Krátké, mimovolní, konkrétní myšlenky nebo obrazy, které člověku bleskově procházejí myslí jako reakce na situaci a spoluurčují emoční a behaviorální odezvu; podle Aarona Becka jsou povrchovou vrstvou nad hlubšími jádrovými přesvědčeními a často nesou typický vzorec kognitivního zkreslení."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-restrukturalizace/> ;
+    skos:related <https://selinstitute.cz/knihovna/jadrova-presvedceni/> ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-zkresleni/> ;
+    skos:related <https://selinstitute.cz/knihovna/metakognitivni-uvedomeni/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/autonomni-a-kontrolovana-motivace/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Autonomní a kontrolovaná motivace"@cs ;
+    skos:prefLabel "autonomous and controlled motivation"@en ;
+    skos:definition "Rozlišení dvou kvalit motivace z teorie sebeurčení (SDT), rozpracované v její dílčí teorii Organismic Integration Theory: motivaci k chování řadí na kontinuum od kontrolované (vnější nátlak, odměna, vina) k autonomní (osobní hodnota, sebejednota, požitek ze samotné činnosti) a tvrdí, že míra autonomie motivace predikuje, jak dlouho chování vydrží bez vnějšího dohledu."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-sebeurceni/> ;
+    skos:related <https://selinstitute.cz/knihovna/podpora-autonomie/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/autonomni-nervovy-system/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Autonomní nervový systém (sympatikus a parasympatikus)"@cs ;
+    skos:prefLabel "autonomic nervous system"@en ;
+    skos:altLabel "vegetativní nervový systém" ;
+    skos:altLabel "viscerální nervový systém" ;
+    skos:altLabel "autonomní nervová soustava" ;
+    skos:definition "Autonomní nervový systém je část nervové soustavy, která bez vědomé kontroly řídí základní tělesné funkce (tep srdce, dýchání, trávení) prostřednictvím dvou větví – sympatické (mobilizace organismu) a parasympatické (zotavení a obnova)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/interocepce/> ;
+    skos:related <https://selinstitute.cz/knihovna/koregulace/> ;
+    skos:related <https://selinstitute.cz/knihovna/polyvagalni-teorie/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/cannon-bardova-teorie-emoci/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Cannon-Bardova teorie emocí"@cs ;
+    skos:prefLabel "Cannon–Bard theory"@en ;
+    skos:altLabel "thalamic theory of emotion" ;
+    skos:definition "Cannon-Bardova teorie (1927) tvrdí, že tělesné vzrušení (bušení srdce, pocení) a subjektivní pocit emoce vznikají současně a na sobě nezávisle díky zpracování v mozkovém thalamu, na rozdíl od starší představy, že pocit emoce je až interpretací tělesné reakce."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-nervovy-system/> ;
+    skos:related <https://selinstitute.cz/knihovna/reakce-boj-nebo-utek/> ;
+    skos:related <https://selinstitute.cz/knihovna/schachter-singerova-teorie-emoci/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/casel-ramec/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "CASEL rámec (CASEL 5)"@cs ;
+    skos:prefLabel "CASEL Framework"@en ;
+    skos:altLabel "CASEL 5" ;
+    skos:altLabel "CASEL wheel" ;
+    skos:definition "CASEL rámec (CASEL 5) je sada pěti vzájemně propojených sociálních a emočních kompetencí – sebeuvědomění, sebeřízení, sociální uvědomění, vztahové dovednosti a zodpovědné rozhodování –, kterou formuluje americká organizace CASEL a kterou školy používají jako společný slovník cílů sociálního a emočního učení (SEL)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-attachmentu/> ;
+    skos:related <https://selinstitute.cz/knihovna/koregulace/> ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-restrukturalizace/> ;
+    skos:related <https://selinstitute.cz/knihovna/interocepce/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/chronicky-stres/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Chronický stres"@cs ;
+    skos:prefLabel "Chronic stress"@en ;
+    skos:altLabel "dlouhodobý stres" ;
+    skos:definition "Chronický stres je stav, kdy tělo čelí opakovaně se vracející nebo nepřetržitě trvající zátěži a nemá dostatek času se mezi jednotlivými zátěžovými epizodami vrátit do klidového stavu – na rozdíl od akutního stresu, který odezní v řádu hodin až dnů poté, co pominul spouštěč."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/obecny-adaptacni-syndrom/> ;
+    skos:related <https://selinstitute.cz/knihovna/alostaticka-zatez/> ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-nervovy-system/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/decentering/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Decentering (Jeremy D. Safran, Zindel V. Segal)"@cs ;
+    skos:prefLabel "Decentering"@en ;
+    skos:altLabel "Decentrace" ;
+    skos:definition "Schopnost pozorovat vlastní myšlenky a pocity jako dočasné, objektivní mentální události, ne jako nutně pravdivé odrazy reality nebo definici vlastní osoby. Pojem zavedli Jeremy D. Safran a Zindel V. Segal (1990) jako možný mechanismus změny v kognitivní terapii; později se stal teoretickým základem mindfulness-based kognitivní terapie (MBCT) a blízkým příbuzným kognitivní defúze v terapii přijetí a závazku (ACT)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/metakognitivni-uvedomeni/> ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-defuze/> ;
+    skos:related <https://selinstitute.cz/knihovna/psychologicka-flexibilita/> ;
+    skos:related <https://selinstitute.cz/knihovna/mindfulness/> ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-restrukturalizace/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/depresivni-realismus/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Depresivní realismus (Alloy a Abramson, 1979)"@cs ;
+    skos:prefLabel "depressive realism"@en ;
+    skos:definition "Hypotéza Lauren B. Alloyové a Lyn Y. Abramsonové (1979), že mírně depresivní lidé v některých experimentálních úlohách odhadují svou vlastní kontrolu nad výsledkem přesněji než nedepresivní lidé, kteří naopak vykazují vlastní, měřitelně větší pozitivní zkreslení, používaná jako kritický protipříklad k předpokladu, že deprese je obecně spojená se zkresleným, ne přesnějším, viděním reality."@cs ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/disociace/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Disociace"@cs ;
+    skos:prefLabel "Dissociation"@en ;
+    skos:definition "Narušení běžně propojeného chodu vědomí, paměti, identity nebo vnímání – od běžného „zasnění“ až po klinicky popisované stavy jako výpadek paměti nebo pocit odpojení od těla (depersonalizace) či od okolí (derealizace); pojem zavedl Pierre Janet (1889), k jeho měření slouží dotazníky, například DES (Bernstein a Putnam 1986)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/dorzalni-vagovy-komplex/> ;
+    skos:related <https://selinstitute.cz/knihovna/tonicka-imobilita/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/dorzalni-vagovy-komplex/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Dorzální vagový komplex"@cs ;
+    skos:prefLabel "Dorsal vagal complex"@en ;
+    skos:definition "Podle polyvagální teorie Stephena Porgese nejstarší ze tří „obvodů“ autonomního nervového systému – vychází z dorzálního motorického jádra desátého hlavového nervu (vagu), vede převážně nemyelinizovanými vlákny k orgánům pod bránicí a podle teorie se zapojuje jako poslední možnost při neodvratitelném ohrožení, kdy vede k imobilizaci, útlumu a „vypnutí“ (shutdown)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/polyvagalni-teorie/> ;
+    skos:related <https://selinstitute.cz/knihovna/ventralni-vagovy-komplex/> ;
+    skos:related <https://selinstitute.cz/knihovna/neurocepce/> ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-nervovy-system/> ;
+    skos:related <https://selinstitute.cz/knihovna/tonicka-imobilita/> ;
+    skos:related <https://selinstitute.cz/knihovna/disociace/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/empatie/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Empatie"@cs ;
+    skos:prefLabel "empathy"@en ;
+    skos:altLabel "vcítění" ;
+    skos:definition "Empatie je schopnost rozpoznat a podílet se na emočním stavu druhého člověka; psycholog Mark H. Davis ji v roce 1983 rozdělil na měřitelně odlišnou rozumovou složku (perspective-taking) a citovou složku (empatický zájem)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/socialni-uvedomeni/> ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-mysli/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/fenomenologicka-intersubjektivita/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Fenomenologická intersubjektivita (Husserl, Schutz, Merleau-Ponty)"@cs ;
+    skos:prefLabel "phenomenology of intersubjectivity"@en ;
+    skos:definition "Tři příbuzné, ale odlišné fenomenologické odpovědi na otázku, jak vůbec zakoušíme druhého člověka jako vědomou bytost a ne jako pouhý podobný objekt – Husserlovo „párování“ těl, Schutzovo pojetí smyslu druhého jako vždy jen interpretace a Merleau-Pontyho důraz na tělesné, „interkorporeální“ setkání s druhým."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/psychoanalyticka-intersubjektivita/> ;
+    skos:related <https://selinstitute.cz/knihovna/intersubjektivita/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/hccq/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Health Care Climate Questionnaire (HCCQ)"@cs ;
+    skos:prefLabel "Health Care Climate Questionnaire"@en ;
+    skos:definition "Sebeposuzovací dotazník z teorie sebeurčení (Self-Determination Theory, SDT), kterým člověk v péči zdravotníka hodnotí, jak moc vnímá svého zdravotníka (lékaře, sestru, poradce) jako podporujícího jeho autonomii. Existuje jako patnáctipoložková dlouhá verze a šestipoložková krátká verze; je sesterským nástrojem k Learning Climate Questionnaire (LCQ) pro vzdělávání."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/podpora-autonomie/> ;
+    skos:related <https://selinstitute.cz/knihovna/lcq/> ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-sebeurceni/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/hodnotove-orientovane-jednani/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Hodnotově orientované jednání (committed action, ACT)"@cs ;
+    skos:prefLabel "Committed action"@en ;
+    skos:altLabel "Committed action" ;
+    skos:altLabel "Odhodlané jednání" ;
+    skos:definition "Jedna z šesti dovedností hexaflexu terapie přijetí a závazku (Acceptance and Commitment Therapy, ACT) Stevena Hayese: budování konkrétních, pozorovatelných kroků jednání vázaných na svobodně zvolené hodnoty, a to i v přítomnosti nepříjemných myšlenek a pocitů. Podle toho, co situace dovoluje, jde buď o vytrvání v daném jednání, nebo o jeho změnu, pokud přestává fungovat."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/psychologicka-flexibilita/> ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-defuze/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/hodnoty-act/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Hodnoty (ujasnění hodnot, Acceptance and Commitment Therapy, ACT)"@cs ;
+    skos:prefLabel "Values (Acceptance and Commitment Therapy, ACT)"@en ;
+    skos:altLabel "Ujasnění hodnot" ;
+    skos:altLabel "Values clarification (ACT)" ;
+    skos:definition "Jedna z šesti dovedností hexaflexu terapie přijetí a závazku (Acceptance and Commitment Therapy, ACT) Stevena Hayese: ujasnění si, co je člověku ve vybrané oblasti života svobodně a vědomě důležité, a to ne jako cíl, kterého lze jednou dosáhnout a odškrtnout, ale jako trvalý, zvolený směr jednání. Je teoretickým základem pro navazující dovednost hodnotově orientovaného jednání (committed action)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/psychologicka-flexibilita/> ;
+    skos:related <https://selinstitute.cz/knihovna/hodnotove-orientovane-jednani/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/holmes-rahe-skala-zivotnich-zmen/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Holmesova–Raheho škála životních změn"@cs ;
+    skos:prefLabel "Holmes and Rahe Stress Scale"@en ;
+    skos:altLabel "Social Readjustment Rating Scale" ;
+    skos:altLabel "SRRS" ;
+    skos:definition "Holmesova–Raheho škála životních změn je dotazník z roku 1967, který sečtením bodových vah 43 běžných životních událostí za poslední rok (narození dítěte, rozvod, úmrtí partnera apod.) odhaduje riziko zdravotních potíží z nahromaděné zátěže."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/obecny-adaptacni-syndrom/> ;
+    skos:related <https://selinstitute.cz/knihovna/chronicky-stres/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/hyperaktivace-a-hypoaktivace/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Hyperaktivace a hypoaktivace nervového systému (hyperarousal/hypoarousal)"@cs ;
+    skos:prefLabel "Hyperarousal and hypoarousal"@en ;
+    skos:definition "Dvě protilehlé krajní zóny vychýlení fyziologické aktivace (arousal) mimo zvládnutelné pásmo tzv. okna tolerance: hyperaktivace (hyperarousal, přebuzení – panika, zahlcení, podrážděnost) a hypoaktivace (hypoarousal, útlum – ztuhlost, odpojení, pocit prázdnoty); pro klinickou praxi je rozpracovali Pat Ogden, Kekuni Minton a Clare Pain (2006) na základě okna tolerance Daniela Siegela (1999)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/okno-tolerance/> ;
+    skos:related <https://selinstitute.cz/knihovna/polyvagalni-teorie/> ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-nervovy-system/> ;
+    skos:related <https://selinstitute.cz/knihovna/dorzalni-vagovy-komplex/> ;
+    skos:related <https://selinstitute.cz/knihovna/obranna-kaskada/> ;
+    skos:related <https://selinstitute.cz/knihovna/tonicka-imobilita/> ;
+    skos:related <https://selinstitute.cz/knihovna/yerkesuv-dodsonuv-zakon/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/interocepce/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Interocepce (A. D. Craig)"@cs ;
+    skos:prefLabel "Interoception"@en ;
+    skos:definition "Schopnost nervového systému registrovat a reprezentovat fyziologický stav vlastního těla (tep srdce, dech, hlad, bolest, teplo) jako základ pro to, co člověk subjektivně pociťuje jako emoci."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-nervovy-system/> ;
+    skos:related <https://selinstitute.cz/knihovna/polyvagalni-teorie/> ;
+    skos:related <https://selinstitute.cz/knihovna/okno-tolerance/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/interoceptivni-presnost/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Interoceptivní přesnost (Hugo Critchley, Sarah Garfinkel)"@cs ;
+    skos:prefLabel "interoceptive accuracy"@en ;
+    skos:altLabel "interoceptive sensitivity" ;
+    skos:definition "Jedna ze tří oddělených složek interocepce: objektivně měřená schopnost přesně rozpoznat vlastní tělesné signály (typicky tep srdce), na rozdíl od toho, co si o téhle své schopnosti člověk sám myslí nebo jak je si jistý svým odhadem."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/interocepce/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/intersubjektivita/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Intersubjektivita"@cs ;
+    skos:prefLabel "intersubjectivity"@en ;
+    skos:definition "Pojem pro to, co se odehrává MEZI dvěma vědomými bytostmi, ne jen uvnitř jedné z nich – ale pod stejným slovem se skrývají tři výrazně odlišné, na sobě nezávislé linie myšlení (vývojová, psychoanalytická, fenomenologická), které spojuje jen název, ne jednotná teorie."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/afektivni-souladeni/> ;
+    skos:related <https://selinstitute.cz/knihovna/fenomenologicka-intersubjektivita/> ;
+    skos:related <https://selinstitute.cz/knihovna/psychoanalyticka-intersubjektivita/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/jadrova-presvedceni/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Jádrová přesvědčení (Aaron Beck)"@cs ;
+    skos:prefLabel "Core beliefs"@en ;
+    skos:altLabel "Core schemas" ;
+    skos:definition "Podle Aarona Becka nejhlubší, obvykle bezděčná a zobecněná přesvědčení o sobě, druhých a světě (např. „jsem nedostatečný“), která utvářejí mezilehlá pravidla a předpoklady a skrze ně i povrchové automatické myšlenky; v klinické praxi se odkrývají např. tzv. technikou sestupující šipky."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/automaticke-myslenky/> ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-restrukturalizace/> ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-zkresleni/> ;
+    skos:related <https://selinstitute.cz/knihovna/schema-terapie/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/jista-zakladna/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Jistá základna (Mary Ainsworth, John Bowlby)"@cs ;
+    skos:prefLabel "secure base"@en ;
+    skos:altLabel "Bezpečná základna" ;
+    skos:definition "Konstrukt z teorie attachmentu: pečující osoba (nebo později i partner v dospělosti) funguje jako základna, od níž se dítě bezpečně vzdaluje za průzkumem okolí a na kterou se v případě ohrožení nebo potřeby vrací - a tahle spolehlivá dostupnost samotný průzkum umožňuje."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-attachmentu/> ;
+    skos:related <https://selinstitute.cz/knihovna/metoda-neznama-situace/> ;
+    skos:related <https://selinstitute.cz/knihovna/vnitrni-pracovni-modely/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/kognitivne-atencni-syndrom/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Kognitivně-atenční syndrom (CAS)"@cs ;
+    skos:prefLabel "Cognitive Attentional Syndrome"@en ;
+    skos:altLabel "CAS" ;
+    skos:definition "Wellsův termín pro opakující se vzorec reakce na nepříjemné myšlenky (obavy a ruminace, sledování hrozby a kontraproduktivní copingové strategie, jako je potlačování myšlenek, vyhýbání se a vyhledávání ujištění), který podle modelu S-REF udržuje úzkost a depresi při životě; měří se dotazníkem CAS-1 (Wells, 2009)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/metakognitivni-terapie/> ;
+    skos:related <https://selinstitute.cz/knihovna/metakognitivni-presvedceni/> ;
+    skos:related <https://selinstitute.cz/knihovna/ruminace/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/kognitivni-defuze/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Kognitivní defúze (Steven C. Hayes, ACT)"@cs ;
+    skos:prefLabel "Cognitive defusion"@en ;
+    skos:altLabel "Defúze" ;
+    skos:altLabel "Defusion" ;
+    skos:altLabel "Deliteralization" ;
+    skos:definition "Dovednost z terapie přijetí a závazku (Acceptance and Commitment Therapy, ACT) Stevena Hayese: schopnost všimnout si vlastní myšlenky jako pomíjivé mentální události („mám myšlenku, že…“), ne jako přímého faktu o světě nebo příkazu k jednání, tedy protiklad kognitivní fúze."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/psychologicka-flexibilita/> ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-restrukturalizace/> ;
+    skos:related <https://selinstitute.cz/knihovna/hodnotove-orientovane-jednani/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/kognitivni-restrukturalizace/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Kognitivní restrukturalizace (Aaron Beck)"@cs ;
+    skos:prefLabel "cognitive restructuring"@en ;
+    skos:definition "Metoda kognitivně-behaviorální terapie (CBT) Aarona Becka: systematická identifikace a věcné přezkoumání zkreslených automatických myšlenek a jádrových přesvědčení za účelem zmírnění emočního utrpení."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-zkresleni/> ;
+    skos:related <https://selinstitute.cz/knihovna/ruminace/> ;
+    skos:related <https://selinstitute.cz/knihovna/metakognitivni-terapie/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/kognitivni-zkresleni/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Kognitivní zkreslení (Aaron Beck)"@cs ;
+    skos:prefLabel "Cognitive distortion"@en ;
+    skos:altLabel "cognitive errors" ;
+    skos:definition "Opakující se, typický vzorec zkresleného uvažování (např. černobílé vidění, katastrofizace, čtení myšlenek), který podle Aarona Becka stojí za negativním obsahem automatických myšlenek a systematicky posouvá vnímání situace k negativnějšímu obrazu, než odpovídá dostupným faktům."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/automaticke-myslenky/> ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-restrukturalizace/> ;
+    skos:related <https://selinstitute.cz/knihovna/jadrova-presvedceni/> ;
+    skos:related <https://selinstitute.cz/knihovna/depresivni-realismus/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/komunikace/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Komunikace"@cs ;
+    skos:prefLabel "communication"@en ;
+    skos:altLabel "komunikační dovednosti" ;
+    skos:altLabel "communication skills" ;
+    skos:definition "Komunikace je schopnost jasně sdělit druhé straně vlastní sdělení (slovně i mimoslovně) a správně přijmout a pochopit to, co sděluje ona – v CASEL rámci jmenovaná dílčí dovednost kompetence vztahové dovednosti, mimo školní kontext popisovaná pod různými jmény (aktivní naslouchání, nenásilná komunikace)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/vztahove-dovednosti/> ;
+    skos:related <https://selinstitute.cz/knihovna/reseni-konfliktu/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/kontakt-s-pritomnym-okamzikem/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Kontakt s přítomným okamžikem (Steven C. Hayes, ACT)"@cs ;
+    skos:prefLabel "Contact with the present moment"@en ;
+    skos:altLabel "Being present (ACT)" ;
+    skos:definition "Jedna z šesti dovedností hexaflexu terapie přijetí a závazku (Acceptance and Commitment Therapy, ACT) Stevena Hayese: schopnost pružně a dobrovolně věnovat pozornost tomu, co se děje právě teď, vnějšímu i vnitřnímu prožívání, bez automatického driftu do minulosti, budoucnosti nebo do „autopilota“, a bez hodnocení toho, čeho si člověk všimne."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/psychologicka-flexibilita/> ;
+    skos:related <https://selinstitute.cz/knihovna/akceptace/> ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-defuze/> ;
+    skos:related <https://selinstitute.cz/knihovna/pozorujici-ja/> ;
+    skos:related <https://selinstitute.cz/knihovna/hodnotove-orientovane-jednani/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/koregulace/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Koregulace"@cs ;
+    skos:prefLabel "co-regulation"@en ;
+    skos:altLabel "mutual regulation" ;
+    skos:definition "Koregulace je proces, kterým partneři v interakci, nejčastěji kojenec a pečující osoba, společně a nepřetržitě vyvažují a opravují svůj citový a tělesný stav – ne jednostranné uklidňování dítěte dospělým, ale oboustranná souhra; termín se používá i šířeji pro sociální procesy lidského vývoje."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-attachmentu/> ;
+    skos:related <https://selinstitute.cz/knihovna/polyvagalni-teorie/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/lcq/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Learning Climate Questionnaire (LCQ)"@cs ;
+    skos:prefLabel "Learning Climate Questionnaire"@en ;
+    skos:definition "Sebeposuzovací dotazník z teorie sebeurčení (Self-Determination Theory, SDT), kterým student hodnotí, jak moc vnímá svého učitele nebo instruktora jako podporujícího jeho autonomii. Existuje jako patnáctipoložková dlouhá verze, oficiální šestipoložková krátká verze a novější, výzkumně navržená pětipoložková verze LCQ-5."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/podpora-autonomie/> ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-sebeurceni/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/mentalizace/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Mentalizace"@cs ;
+    skos:prefLabel "Mentalization"@en ;
+    skos:altLabel "mentalizing" ;
+    skos:altLabel "reflective functioning" ;
+    skos:definition "Schopnost rozumět vlastnímu i cizímu chování jako výrazu duševních stavů – přesvědčení, pocitů, záměrů, přání –, a to jak u druhých, tak u sebe sama; termín používali už dříve francouzští psychoanalytici, v dnešním pojetí ho rozšířil Peter Fonagy článkem z roku 1991 a později ho s Anthonym Batemanem rozvinul do terapie zaměřené na mentalizaci (mentalization-based treatment, MBT)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-mysli/> ;
+    skos:related <https://selinstitute.cz/knihovna/styly-citove-vazby-v-dospelosti/> ;
+    skos:related <https://selinstitute.cz/knihovna/regulace-emoci/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/metakognitivni-presvedceni/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Metakognitivní přesvědčení (Adrian Wells)"@cs ;
+    skos:prefLabel "Metacognitive beliefs"@en ;
+    skos:definition "Přesvědčení o vlastním myšlení, ne o světě (např. „musím se o tom pořád dokola obávat, abych byl připravený“). Podle Wellsovy teorie udržují opakující se obavy a ruminaci a tím i úzkost a depresi; měří se dotazníkem MCQ-30 (Cartwright-Hatton & Wells, 1997; Wells & Cartwright-Hatton, 2004)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/metakognitivni-terapie/> ;
+    skos:related <https://selinstitute.cz/knihovna/metakognitivni-uvedomeni/> ;
+    skos:related <https://selinstitute.cz/knihovna/ruminace/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/metakognitivni-terapie/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Metakognitivní terapie (Adrian Wells)"@cs ;
+    skos:prefLabel "Metacognitive Therapy"@en ;
+    skos:altLabel "MCT" ;
+    skos:definition "Terapeutický přístup britského psychologa Adriana Wellse: psychické potíže neudržuje obsah myšlenek, ale metakognitivní přesvědčení a strategie (obavy, ruminace, sledování hrozby), kterými se k myšlení člověk vztahuje; léčba cílí na změnu tohoto vztahu, ne na přepracování konkrétních myšlenek."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-restrukturalizace/> ;
+    skos:related <https://selinstitute.cz/knihovna/metakognitivni-uvedomeni/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/metakognitivni-uvedomeni/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Metakognitivní uvědomění (John Teasdale)"@cs ;
+    skos:prefLabel "metacognitive awareness"@en ;
+    skos:definition "Schopnost vnímat vlastní myšlenku nebo pocit jako pomíjivou mentální událost, ne jako fakt nebo jako definici vlastní osoby; podle Johna Teasdalea a kolegů klíčový mechanismus, který brání návratu deprese, nezávisle na tom, jestli se změní obsah myšlenky."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-restrukturalizace/> ;
+    skos:related <https://selinstitute.cz/knihovna/ruminace/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/metoda-neznama-situace/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Metoda neznámé situace (Strange Situation Procedure)"@cs ;
+    skos:prefLabel "Strange Situation Procedure"@en ;
+    skos:altLabel "test neznámé situace" ;
+    skos:altLabel "Strange Situation" ;
+    skos:definition "Standardizovaný laboratorní postup Mary Ainsworthové z 70. let, který na základě chování kojence při odloučení od pečující osoby a při shledání s ní klasifikuje jeho vztahový vzorec (jistý, nejistě-vyhýbavý, nejistě-vzdorující, později doplněný dezorganizovaný)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-attachmentu/> ;
+    skos:related <https://selinstitute.cz/knihovna/koregulace/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/mindfulness/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Mindfulness (Jon Kabat-Zinn)"@cs ;
+    skos:prefLabel "Mindfulness"@en ;
+    skos:altLabel "Všímavost" ;
+    skos:altLabel "Bdělá pozornost" ;
+    skos:definition "Schopnost věnovat pozornost tomu, co se právě děje (v těle, v okolí i v mysli), záměrně a bez hodnocení toho, co si člověk všimne. Jako sekulární, klinicky používaný koncept ho zformuloval a popularizoval Jon Kabat-Zinn od roku 1979 na Massachusettské univerzitě, s odkazem na buddhistickou meditační praxi (pálijsky sati), ale odděleně od jejího náboženského rámce."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/decentering/> ;
+    skos:related <https://selinstitute.cz/knihovna/kontakt-s-pritomnym-okamzikem/> ;
+    skos:related <https://selinstitute.cz/knihovna/metakognitivni-uvedomeni/> ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-defuze/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/misatribuce-vzruseni/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Misatribuce vzrušení (Dutton a Aron, 1974)"@cs ;
+    skos:prefLabel "misattribution of arousal"@en ;
+    skos:definition "Misatribuce vzrušení je jev, kdy si člověk tělesné vzrušení vyvolané jednou situací (např. strachem z výšky) mylně vyloží jako vzrušení vyvolané něčím jiným, co se v tu chvíli objeví vedle toho, typicky jako silnější citový nebo sexuální zájem o přítomnou osobu."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/schachter-singerova-teorie-emoci/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/neurocepce/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Neurocepce (Stephen Porges)"@cs ;
+    skos:prefLabel "Neuroception"@en ;
+    skos:definition "Pojem Stephena Porgese pro nevědomý, automatický proces, kterým nervový systém vyhodnocuje signály bezpečí a hrozby z vlastního těla, z okolního prostředí i z interakce s druhými lidmi, a na jejich základě přepíná mezi autonomními stavy popsanými polyvagální teorií – dřív, než si to člověk vědomě uvědomí."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-nervovy-system/> ;
+    skos:related <https://selinstitute.cz/knihovna/interocepce/> ;
+    skos:related <https://selinstitute.cz/knihovna/koregulace/> ;
+    skos:related <https://selinstitute.cz/knihovna/polyvagalni-teorie/> ;
+    skos:related <https://selinstitute.cz/knihovna/reakce-boj-nebo-utek/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/neurosekvencni-model/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Neurosekvenční model"@cs ;
+    skos:prefLabel "Neurosequential Model of Therapeutics"@en ;
+    skos:altLabel "NMT" ;
+    skos:altLabel "Neurosequential Model" ;
+    skos:definition "Neurosekvenční model (Neurosequential Model of Therapeutics, NMT) je rámec amerického psychiatra Bruce Perryho pro terapeutickou práci s dětmi po traumatu: nejdřív zklidnění těla (regulace), pak navázání bezpečného vztahu, až potom práce s myšlením a řešením problémů – shrnuto jako „Regulate, Relate, Reason“."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/koregulace/> ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-nervovy-system/> ;
+    skos:related <https://selinstitute.cz/knihovna/polyvagalni-teorie/> ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-attachmentu/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/obavy/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Obavy (worry)"@cs ;
+    skos:prefLabel "Worry"@en ;
+    skos:definition "Opakovaný, převážně slovní (ne obrazový) řetězec negativně laděných a těžko ovladatelných myšlenek na to, co by se mohlo v budoucnu pokazit u situace s nejistým výsledkem; od příbuzné ruminace se liší hlavně zaměřením do budoucnosti místo do minulosti a je jádrovým rysem kritérií pro stanovení generalizované úzkostné poruchy."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivne-atencni-syndrom/> ;
+    skos:related <https://selinstitute.cz/knihovna/metakognitivni-terapie/> ;
+    skos:related <https://selinstitute.cz/knihovna/metakognitivni-presvedceni/> ;
+    skos:related <https://selinstitute.cz/knihovna/ruminace/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/obecny-adaptacni-syndrom/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Obecný adaptační syndrom"@cs ;
+    skos:prefLabel "General adaptation syndrome"@en ;
+    skos:altLabel "všeobecný adaptační syndrom" ;
+    skos:altLabel "GAS" ;
+    skos:definition "Obecný adaptační syndrom je Selyeho popis toho, jak tělo reaguje na jakoukoli déletrvající zátěž (stresor) stejným, údajně nespecifickým třífázovým vzorcem – poplach, odpor/adaptace, vyčerpání – bez ohledu na to, co zátěž konkrétně způsobilo."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-nervovy-system/> ;
+    skos:related <https://selinstitute.cz/knihovna/reakce-boj-nebo-utek/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/obranna-kaskada/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Obranná kaskáda"@cs ;
+    skos:prefLabel "Defense cascade"@en ;
+    skos:altLabel "defence cascade" ;
+    skos:definition "Klinický model, podle kterého tělo na ohrožení reaguje ne jednou univerzální reakcí, ale posloupností odlišných vrozených obranných reakcí (pohotovost, boj/útěk, zamrznutí, tonická/kolapsová imobilita, zotavení), jejichž nástup závisí na blízkosti a neodvratitelnosti hrozby; pro klinickou praxi ho formulovali Kasia Kozlowska a kol. (2015) na základě staršího výzkumu obranných reakcí zvířat."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/reakce-boj-nebo-utek/> ;
+    skos:related <https://selinstitute.cz/knihovna/dorzalni-vagovy-komplex/> ;
+    skos:related <https://selinstitute.cz/knihovna/tonicka-imobilita/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/oddaleni-uspokojeni/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Oddálení uspokojení (Walter Mischel)"@cs ;
+    skos:prefLabel "delay of gratification"@en ;
+    skos:altLabel "delayed gratification" ;
+    skos:definition "Schopnost vzdát se menší odměny dostupné hned ve prospěch větší odměny, která přijde až později; jev, který od konce 60. let 20. století zkoumal Walter Mischel na předškolních dětech ve Stanfordu."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/seberizeni/> ;
+    skos:related <https://selinstitute.cz/knihovna/regulace-emoci/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/odpoutana-vsimavost/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Odpoutaná všímavost (Adrian Wells)"@cs ;
+    skos:prefLabel "Detached Mindfulness"@en ;
+    skos:definition "Technika z metakognitivní terapie britského psychologa Adriana Wellse: krátký, přesně vymezený způsob, jak si všimnout myšlenky, obavy nebo vzpomínky a nechat ji projít, aniž by se člověk zapojil do jejího obsahu, hodnotil ji, potlačoval nebo s ní dál pracoval. Na rozdíl od obecné meditační všímavosti to Wells definuje jako konkrétní metakognitivní manévr, ne jako meditační praxi."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/metakognitivni-terapie/> ;
+    skos:related <https://selinstitute.cz/knihovna/mindfulness/> ;
+    skos:related <https://selinstitute.cz/knihovna/ruminace/> ;
+    skos:related <https://selinstitute.cz/knihovna/decentering/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/okno-tolerance/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Okno tolerance"@cs ;
+    skos:prefLabel "Window of tolerance"@en ;
+    skos:definition "Teoretický rámec popisující pásmo intenzity fyziologické aktivace (arousal), ve kterém člověk dokáže jasně myslet, regulovat emoce a přiměřeně reagovat; mimo tohle pásmo nastává buď hyperaktivace (hyperarousal), nebo hypoaktivace (hypoarousal). Zavedl ho psychiatr Daniel J. Siegel (1999), klinicky dál rozpracovali Pat Ogden, Kekuni Minton a Clare Pain (2006)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/hyperaktivace-a-hypoaktivace/> ;
+    skos:related <https://selinstitute.cz/knihovna/polyvagalni-teorie/> ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-nervovy-system/> ;
+    skos:related <https://selinstitute.cz/knihovna/regulace-emoci/> ;
+    skos:related <https://selinstitute.cz/knihovna/koregulace/> ;
+    skos:related <https://selinstitute.cz/knihovna/yerkesuv-dodsonuv-zakon/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/osamelost-a-socialni-izolace/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Osamělost a sociální izolace jako zdravotní riziko (Cacioppo, Holt-Lunstad)"@cs ;
+    skos:prefLabel "loneliness and social isolation"@en ;
+    skos:altLabel "social isolation and loneliness" ;
+    skos:definition "Výzkumný program, který ukazuje, že osamělost (subjektivní pocit nedostatku vztahů) a sociální izolace (objektivně málo sociálních kontaktů) souvisí se zvýšeným rizikem nemocnosti a úmrtnosti srovnatelným s jinými uznávanými zdravotními riziky. Nejvíc je spojený se jmény Johna Cacioppa (mechanismy a teorie) a Julianne Holt-Lunstadové (velké metaanalýzy úmrtnosti)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/potreba-sounalezitosti/> ;
+    skos:related <https://selinstitute.cz/knihovna/potreba-socialni-zakotvenosti/> ;
+    skos:related <https://selinstitute.cz/knihovna/social-baseline-theory/> ;
+    skos:related <https://selinstitute.cz/knihovna/chronicky-stres/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/parasocialni-vztahy/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Parasociální vztahy"@cs ;
+    skos:prefLabel "parasocial relationship"@en ;
+    skos:definition "Jednostranný citový vztah, který si člověk vytváří k mediální postavě, celebritě nebo jiné veřejně známé osobě, aniž by druhá strana o jeho existenci věděla; pojem zavedli Donald Horton a R. Richard Wohl v roce 1956."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/potreba-socialni-zakotvenosti/> ;
+    skos:related <https://selinstitute.cz/knihovna/potreba-sounalezitosti/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/podpora-autonomie/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Podpora autonomie (autonomy support)"@cs ;
+    skos:prefLabel "Autonomy support"@en ;
+    skos:definition "Konkrétní, měřitelný styl vedení druhého člověka (lektora, zdravotníka, trenéra, rodiče), který nabízí volbu, vysvětluje smysl požadavku a omezuje vnější nátlak. Vychází z teorie sebeurčení (SDT) jako protiklad kontrolujícího stylu."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-sebeurceni/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/polyvagalni-teorie/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Polyvagální teorie (Stephen Porges)"@cs ;
+    skos:prefLabel "Polyvagal Theory"@en ;
+    skos:definition "Teorie amerického psychofyziologa Stephena W. Porgese, podle které autonomní nervový systém reaguje na vyhodnocené nebezpečí přes hierarchii tří evolučně odlišných „obvodů“ – ventrální vagový komplex (bezpečí, sociální zapojení), sympatikus (boj nebo útěk) a dorzální vagový komplex (imobilizace, „zamrznutí“) – mezi kterými tělo přepíná na základě nevědomého vyhodnocení bezpečí („neuroception“)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-nervovy-system/> ;
+    skos:related <https://selinstitute.cz/knihovna/ventralni-vagovy-komplex/> ;
+    skos:related <https://selinstitute.cz/knihovna/dorzalni-vagovy-komplex/> ;
+    skos:related <https://selinstitute.cz/knihovna/vagalni-tonus/> ;
+    skos:related <https://selinstitute.cz/knihovna/neurocepce/> ;
+    skos:related <https://selinstitute.cz/knihovna/koregulace/> ;
+    skos:related <https://selinstitute.cz/knihovna/hyperaktivace-a-hypoaktivace/> ;
+    skos:related <https://selinstitute.cz/knihovna/interocepce/> ;
+    skos:related <https://selinstitute.cz/knihovna/safe-and-sound-protocol/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/poruchy-autistickeho-spektra/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Poruchy autistického spektra"@cs ;
+    skos:prefLabel "Autism Spectrum Disorder"@en ;
+    skos:altLabel "Autismus" ;
+    skos:altLabel "PAS" ;
+    skos:altLabel "Autism" ;
+    skos:altLabel "ASD" ;
+    skos:altLabel "Autism spectrum condition" ;
+    skos:definition "Poruchy autistického spektra (PAS) jsou vrozená, od raného dětství trvající odlišnost ve vývoji mozku, projevující se rozdíly v sociální komunikaci a interakci a opakujícími se nebo omezenými vzorci chování, zájmů a smyslového prožívání; míra potřebné podpory se u jednotlivých lidí velmi liší, proto se mluví o „spektru“."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/sdilena-pozornost/> ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-mysli/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/potreba-autonomie/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Potřeba autonomie (Self-Determination Theory, Edward Deci a Richard Ryan)"@cs ;
+    skos:prefLabel "need for autonomy"@en ;
+    skos:altLabel "autonomy need" ;
+    skos:definition "Teze teorie sebeurčení (SDT), že prožitek jednání z vlastní vůle, ne z donucení nebo nátlaku, je jednou ze tří vrozených psychologických potřeb; SDT autonomii explicitně odlišuje od nezávislosti/individualismu: i jednání podle přání druhého může být autonomní, pokud je svobodně přijaté za vlastní."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/tri-zakladni-psychologicke-potreby/> ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-sebeurceni/> ;
+    skos:related <https://selinstitute.cz/knihovna/podpora-autonomie/> ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-a-kontrolovana-motivace/> ;
+    skos:related <https://selinstitute.cz/knihovna/potreba-kompetence/> ;
+    skos:related <https://selinstitute.cz/knihovna/potreba-sounalezitosti/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/potreba-kompetence/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Kompetence jako základní psychologická potřeba (Self-Determination Theory, Edward Deci a Richard Ryan)"@cs ;
+    skos:prefLabel "need for competence"@en ;
+    skos:altLabel "potřeba kompetence" ;
+    skos:altLabel "competence need" ;
+    skos:definition "Teze teorie sebeurčení (SDT), že prožitek vlastní účinnosti a zvládání (kompetence) je jednou ze tří vrozených psychologických potřeb, jejichž naplnění je podmínkou psychické pohody a vnitřně motivovaného jednání; koncept navazuje na dřívější pojem „efektance“ Roberta Whitea (1959)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/tri-zakladni-psychologicke-potreby/> ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-sebeurceni/> ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-a-kontrolovana-motivace/> ;
+    skos:related <https://selinstitute.cz/knihovna/podpora-autonomie/> ;
+    skos:related <https://selinstitute.cz/knihovna/potreba-sounalezitosti/> ;
+    skos:related <https://selinstitute.cz/knihovna/sebeucinnost-bandura/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/potreba-socialni-zakotvenosti/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Potřeba sociální zakotvenosti (Gabriel a Schneiderová)"@cs ;
+    skos:prefLabel "need for social embeddedness"@en ;
+    skos:definition "Teze, kterou formulovaly Shira Gabriel a Veronica Schneiderová (2024): vedle potřeby blízkých, dvojicových vztahů má člověk samostatnou potřebu cítit se zakotven v širším společenství, naplnitelnou i davem, příběhem nebo parasociálním vztahem k veřejně známé osobě."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/potreba-sounalezitosti/> ;
+    skos:related <https://selinstitute.cz/knihovna/parasocialni-vztahy/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/potreba-sounalezitosti/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Potřeba sounáležitosti (Baumeister a Leary)"@cs ;
+    skos:prefLabel "need to belong"@en ;
+    skos:altLabel "belongingness hypothesis" ;
+    skos:definition "Teze Roy Baumeistera a Marka Learyho (1995), že lidé mají základní, vrozenou potřebu častých a nekonfliktních vztahových vazeb v rámci trvajícího pouta, bez ohledu na to, kdo konkrétně je jeho objektem."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-sebeurceni-ve-vztazich/> ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-attachmentu/> ;
+    skos:related <https://selinstitute.cz/knihovna/social-baseline-theory/> ;
+    skos:related <https://selinstitute.cz/knihovna/tri-zakladni-psychologicke-potreby/> ;
+    skos:related <https://selinstitute.cz/knihovna/potreba-socialni-zakotvenosti/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/potreba-sounalezitosti-v-teorii-sebeurceni/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Potřeba sounáležitosti jako základní psychologická potřeba (Self-Determination Theory, Edward Deci a Richard Ryan)"@cs ;
+    skos:prefLabel "relatedness"@en ;
+    skos:altLabel "need for relatedness" ;
+    skos:definition "Teze teorie sebeurčení (SDT), že prožitek propojení a přijetí významnými druhými, sounáležitost (relatedness), je jednou ze tří vrozených psychologických potřeb; pojem se překrývá s Baumeisterovou a Learyho „potřebou patřit“ i s teorií attachmentu, liší se od nich hlavně důrazem a výzkumnou tradicí."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/tri-zakladni-psychologicke-potreby/> ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-sebeurceni/> ;
+    skos:related <https://selinstitute.cz/knihovna/potreba-autonomie/> ;
+    skos:related <https://selinstitute.cz/knihovna/potreba-kompetence/> ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-sebeurceni-ve-vztazich/> ;
+    skos:related <https://selinstitute.cz/knihovna/potreba-sounalezitosti/> ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-attachmentu/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/pozorujici-ja/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Pozorující já (self-as-context, ACT)"@cs ;
+    skos:prefLabel "Self-as-context"@en ;
+    skos:altLabel "Já jako kontext" ;
+    skos:altLabel "Observing self" ;
+    skos:altLabel "Self-as-perspective" ;
+    skos:definition "Jedna z šesti dovedností hexaflexu terapie přijetí a závazku (Acceptance and Commitment Therapy, ACT) Stevena Hayese: schopnost vnímat vlastní myšlenky, pocity a vzpomínky jako proměnlivý obsah, odlišný od stálé perspektivy („já, které si toho všímá“), ze které je člověk pozoruje; v odborné literatuře self-as-context nebo observing self."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/psychologicka-flexibilita/> ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-defuze/> ;
+    skos:related <https://selinstitute.cz/knihovna/hodnotove-orientovane-jednani/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/prenos-excitace/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Přenos excitace (Dolf Zillmann, 1971)"@cs ;
+    skos:prefLabel "Excitation transfer theory"@en ;
+    skos:altLabel "excitation transfer" ;
+    skos:altLabel "excitation-transfer theory" ;
+    skos:definition "Přenos excitace je teorie, podle níž zbytkové tělesné vzrušení z jednoho podnětu (strach, cvičení, hněv) neodezní okamžitě a dál zesiluje intenzitu emoční reakce na další, i zcela nesouvisející podnět, který přijde krátce po něm."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/misatribuce-vzruseni/> ;
+    skos:related <https://selinstitute.cz/knihovna/schachter-singerova-teorie-emoci/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/psychicka-odolnost/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Psychická odolnost (resilience)"@cs ;
+    skos:prefLabel "Resilience"@en ;
+    skos:altLabel "resilience" ;
+    skos:altLabel "psychological resilience" ;
+    skos:definition "Psychická odolnost (resilience) je schopnost nebo proces úspěšně se vyrovnávat se závažnou zátěží, traumatem nebo nepřízní osudu a udržet si přitom stabilní psychické fungování – podle převažujícího současného pojetí jde o běžný, ne vzácný nebo výjimečný jev."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/chronicky-stres/> ;
+    skos:related <https://selinstitute.cz/knihovna/alostaticka-zatez/> ;
+    skos:related <https://selinstitute.cz/knihovna/vagalni-tonus/> ;
+    skos:related <https://selinstitute.cz/knihovna/rustove-nastaveni-mysli/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/psychoanalyticka-intersubjektivita/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Psychoanalytická intersubjektivita (Stolorow a Atwood)"@cs ;
+    skos:prefLabel "Intersubjective systems theory"@en ;
+    skos:altLabel "Intersubjektivní systémová teorie" ;
+    skos:altLabel "Psychoanalytická fenomenologie" ;
+    skos:altLabel "Psychoanalytic phenomenology" ;
+    skos:definition "Teoretický rámec Roberta D. Stolorowa a George E. Atwooda: lidská psychická zkušenost nikdy nevzniká izolovaně v jedné mysli, ale vždy ve vztahovém poli, které spoluutvářejí dvě vzájemně se ovlivňující subjektivity – typicky terapeut a klient."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-attachmentu/> ;
+    skos:related <https://selinstitute.cz/knihovna/koregulace/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/psychologicka-flexibilita/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Psychologická flexibilita (Steven Hayes, ACT)"@cs ;
+    skos:prefLabel "Psychological flexibility"@en ;
+    skos:definition "Konstrukt terapie přijetí a závazku (Acceptance and Commitment Therapy, ACT) Stevena Hayese: schopnost zůstat v přítomném okamžiku v kontaktu s vlastními myšlenkami a pocity, aniž by s nimi člověk musel bojovat nebo se jim vyhýbat, a přesto jednat podle vlastních, svobodně zvolených hodnot. ACT ji rozvíjí přes šest provázaných dovedností, souhrnně označovaných jako hexaflex."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-restrukturalizace/> ;
+    skos:related <https://selinstitute.cz/knihovna/metakognitivni-terapie/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/racionalne-emotivni-behavioralni-terapie/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Racionálně emotivní behaviorální terapie (Albert Ellis)"@cs ;
+    skos:prefLabel "Rational Emotive Behavior Therapy"@en ;
+    skos:altLabel "Racionálně emoční behaviorální terapie" ;
+    skos:altLabel "Racionálně emoční psychoterapie" ;
+    skos:altLabel "Racionálně-emoční terapie (RET)" ;
+    skos:altLabel "Rational-Emotive Therapy (RET)" ;
+    skos:altLabel "REBT" ;
+    skos:definition "Psychoterapeutický a sebepomocný systém Alberta Ellise, založený na tvrzení, že člověka netrápí situace samy, ale přesvědčení, která si o nich vytváří, a na postupu (ABC model), jak tato přesvědčení aktivně zpochybnit."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-restrukturalizace/> ;
+    skos:related <https://selinstitute.cz/knihovna/stoicka-propatheia/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/reakce-boj-nebo-utek/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Reakce boj, nebo útěk (fight-or-flight)"@cs ;
+    skos:prefLabel "fight-or-flight"@en ;
+    skos:altLabel "fight-or-flight response" ;
+    skos:altLabel "boj, nebo útěk" ;
+    skos:definition "Reakce boj, nebo útěk je Cannonův popis toho, jak se tělo při vnímaném ohrožení mobilizuje přes sympatickou větev autonomního nervového systému a adrenalin do jediného stavu připravenosti buď bojovat, nebo uprchnout; dnes je kritizovaná jako zjednodušení, protože mezi další popsané reakce na ohrožení patří i zamrznutí, mdloba nebo pečující/sociální reakce."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-nervovy-system/> ;
+    skos:related <https://selinstitute.cz/knihovna/yerkesuv-dodsonuv-zakon/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/regulace-emoci/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Regulace emocí (emotion regulation)"@cs ;
+    skos:prefLabel "Emotion regulation"@en ;
+    skos:altLabel "Emoční regulace" ;
+    skos:definition "Soubor vědomých i automatických snah ovlivnit, jaké emoce člověk má, kdy je má a jak je prožívá nebo vyjadřuje; Grossův procesní model tyto snahy řadí do pěti skupin podle toho, v jaké fázi emoční reakce zasahují."@cs ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/reseni-konfliktu/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Řešení konfliktů"@cs ;
+    skos:prefLabel "conflict resolution"@en ;
+    skos:definition "Řešení konfliktů je soubor dovedností a přístupů k situaci, kdy mají dvě strany neslučitelné zájmy nebo potřeby – se zaměřením na výsledek přijatelný pro obě strany, místo vítězství jedné strany na úkor druhé, vyhýbání se problému nebo eskalace."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/vztahove-dovednosti/> ;
+    skos:related <https://selinstitute.cz/knihovna/komunikace/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/ruminace/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Ruminace"@cs ;
+    skos:prefLabel "Rumination"@en ;
+    skos:altLabel "přemítání" ;
+    skos:definition "Opakovaný, těžko zastavitelný řetězec myšlenek, kterými se člověk vrací k tomu, co se už stalo, zejména k vlastním negativním pocitům a k otázkám typu „proč se mi to stalo“ nebo „co se mnou je špatně“, aniž by to vedlo k řešení; od příbuzných obav se liší orientací v čase (ruminace k minulosti, obavy k budoucnosti) a podle teorie reakčních stylů Susan Nolen-Hoeksema prodlužuje a zhoršuje depresivní epizody."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/obavy/> ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivne-atencni-syndrom/> ;
+    skos:related <https://selinstitute.cz/knihovna/metakognitivni-presvedceni/> ;
+    skos:related <https://selinstitute.cz/knihovna/metakognitivni-terapie/> ;
+    skos:related <https://selinstitute.cz/knihovna/metakognitivni-uvedomeni/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/rustove-nastaveni-mysli/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Růstové nastavení mysli (Carol Dweck)"@cs ;
+    skos:prefLabel "growth mindset"@en ;
+    skos:altLabel "growth mindset" ;
+    skos:altLabel "růstové myšlení" ;
+    skos:altLabel "incremental theory of intelligence" ;
+    skos:definition "Přesvědčení, že schopnosti jako inteligence nejsou pevně dané, ale dají se úsilím, strategiemi a učením rozvíjet; pojem popularizovala psycholožka Carol Dweck, navazuje na její dřívější akademický koncept „implicitních teorií inteligence“."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/sebeuvedomeni/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/safe-and-sound-protocol/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Safe and Sound Protocol (SSP)"@cs ;
+    skos:prefLabel "Safe and Sound Protocol"@en ;
+    skos:definition "Komerční poslechová intervence vyvinutá Stephenem Porgesem a šířená firmou Unyte: pět hodin speciálně akusticky filtrované hudby poslouchané přes sluchátka, která má podle polyvagální teorie „cvičit“ nervový systém směrem ke stavu bezpečí a sociálního zapojení; vyžaduje placenou certifikaci poskytovatele."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/polyvagalni-teorie/> ;
+    skos:related <https://selinstitute.cz/knihovna/ventralni-vagovy-komplex/> ;
+    skos:related <https://selinstitute.cz/knihovna/neurocepce/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/schachter-singerova-teorie-emoci/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Schachter-Singerova teorie emocí"@cs ;
+    skos:prefLabel "two-factor theory of emotion"@en ;
+    skos:altLabel "dvoufaktorová teorie emocí" ;
+    skos:altLabel "Schachter-Singer theory" ;
+    skos:definition "Schachter-Singerova teorie (1962) tvrdí, že tělesné vzrušení samo o sobě nerozliší, o jakou emoci jde: stejný fyziologický stav (bušení srdce, pocení) člověk pojmenuje jako strach, vztek nebo radost podle toho, jak si ho kognitivně vyloží vzhledem k okolnostem."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-nervovy-system/> ;
+    skos:related <https://selinstitute.cz/knihovna/interocepce/> ;
+    skos:related <https://selinstitute.cz/knihovna/misatribuce-vzruseni/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/schema-terapie/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Schema terapie (Jeffrey Young)"@cs ;
+    skos:prefLabel "Schema therapy"@en ;
+    skos:altLabel "Schema-focused therapy" ;
+    skos:altLabel "Schematerapie" ;
+    skos:definition "Integrativní psychoterapeutická metoda Jeffreyho Younga, která rozpracovává Beckova jádrová přesvědčení do 18 tzv. „early maladaptive schemas“ a pracuje s nimi přes copingové styly a emoční „mody“ kombinací kognitivně-behaviorálních, zážitkových (imaginace, hraní rolí) a vztahových technik, včetně tzv. limited reparenting terapeutem."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/jadrova-presvedceni/> ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-restrukturalizace/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/sdilena-pozornost/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Sdílená pozornost (joint attention)"@cs ;
+    skos:prefLabel "Joint attention"@en ;
+    skos:definition "Schopnost dítěte a pečující osoby zaměřit a vzájemně si signalizovat společnou pozornost k téže vnější věci (pohledem, gestem); vzniká kolem konce prvního roku věku a je považována za jeden ze základů rozvoje řeči a sociálního porozumění."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/intersubjektivita/> ;
+    skos:related <https://selinstitute.cz/knihovna/afektivni-souladeni/> ;
+    skos:related <https://selinstitute.cz/knihovna/komunikace/> ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-mysli/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/seberizeni/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Sebeřízení (CASEL)"@cs ;
+    skos:prefLabel "self-management"@en ;
+    skos:definition "Sebeřízení je jedna z pěti kompetencí rámce CASEL 5 – schopnost zvládat vlastní emoce, myšlenky a chování v různých situacích a dosahovat cílů, včetně oddálení uspokojení, zvládání stresu, sebemotivace a stanovování a plánování osobních i společných cílů."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/casel-ramec/> ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-a-kontrolovana-motivace/> ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-restrukturalizace/> ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-nervovy-system/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/sebeucinnost-bandura/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Sebeúčinnost (Albert Bandura)"@cs ;
+    skos:prefLabel "self-efficacy"@en ;
+    skos:altLabel "vnímaná vlastní účinnost" ;
+    skos:altLabel "vnímaná osobní zdatnost" ;
+    skos:altLabel "perceived self-efficacy" ;
+    skos:definition "Přesvědčení člověka o vlastní schopnosti úspěšně zvládnout konkrétní úkol nebo situaci (ne obecná sebedůvěra ani reálná dovednost); koncept sociálně kognitivní teorie Alberta Bandury z roku 1977."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/potreba-kompetence/> ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-sebeurceni/> ;
+    skos:related <https://selinstitute.cz/knihovna/rustove-nastaveni-mysli/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/sebeuvedomeni/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Sebeuvědomění (CASEL)"@cs ;
+    skos:prefLabel "self-awareness"@en ;
+    skos:definition "Sebeuvědomění je jedna z pěti kompetencí rámce CASEL 5 – schopnost rozumět vlastním emocím, myšlenkám a hodnotám a tomu, jak ovlivňují chování; metodika SBG tuto kompetenci rozděluje na tělesné uvědomění (vrstva Přežít, interocepce) a myšlenkové/metakognitivní uvědomění (vrstva Růst)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/casel-ramec/> ;
+    skos:related <https://selinstitute.cz/knihovna/interocepce/> ;
+    skos:related <https://selinstitute.cz/knihovna/metakognitivni-uvedomeni/> ;
+    skos:related <https://selinstitute.cz/knihovna/vztahove-dovednosti/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/social-baseline-theory/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Social baseline theory"@cs ;
+    skos:prefLabel "Social baseline theory"@en ;
+    skos:altLabel "SBT" ;
+    skos:definition "Social baseline theory tvrdí, že výchozí („baseline“) nastavení lidského mozku počítá s dostupností blízkých, důvěryhodných lidí – jejich fyzická přítomnost podle teorie snižuje neurální i subjektivní odpověď na hrozbu a část zátěže za člověka „přebírá“ vztah, ne jen jeho vlastní zdroje."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/koregulace/> ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-attachmentu/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/socialni-uvedomeni/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Sociální uvědomění (CASEL)"@cs ;
+    skos:prefLabel "social awareness"@en ;
+    skos:definition "Sociální uvědomění je jedna z pěti kompetencí rámce CASEL 5 – schopnost rozpoznat a chápat pocity a pohled druhých lidí (perspective-taking, empatie) a číst nepsaná pravidla a normy různých sociálních prostředí."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/casel-ramec/> ;
+    skos:related <https://selinstitute.cz/knihovna/empatie/> ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-mysli/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/spoluprace/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Spolupráce"@cs ;
+    skos:prefLabel "cooperation"@en ;
+    skos:altLabel "kooperace" ;
+    skos:definition "Spolupráce je dovednost koordinovat úsilí s druhými lidmi k dosažení sdíleného cíle nebo společného prospěchu, místo soupeření o omezený zdroj nebo jednání bez ohledu na druhé – v CASEL rámci jmenovaná dílčí dovednost kompetence vztahové dovednosti, teoreticky ukotvená v Deutschově teorii sociální interdependence a v teorii her jako vysvětlení, proč se spolupráce mezi sobě-zájmovými aktéry vůbec udrží."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/vztahove-dovednosti/> ;
+    skos:related <https://selinstitute.cz/knihovna/komunikace/> ;
+    skos:related <https://selinstitute.cz/knihovna/reseni-konfliktu/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/still-face-experiment/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Still-face experiment (paradigma nehybné tváře)"@cs ;
+    skos:prefLabel "Still-face experiment"@en ;
+    skos:altLabel "Still-Face Paradigm" ;
+    skos:altLabel "Face-to-Face Still-Face paradigm (FFSF)" ;
+    skos:definition "Still-face experiment je standardizovaný laboratorní postup z konce 70. let, ve kterém pečující osoba uprostřed hry s kojencem na dobu obvykle kolem dvou až tří minut znehybní obličej a přestane reagovat. Kojencova následná reakce (ztráta pozitivních projevů, snaha o obnovení kontaktu, posléze rozrušení) slouží jako standardizovaný způsob, jak zkoumat, jak malé dítě samo přispívá k regulaci interakce s dospělým."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/koregulace/> ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-attachmentu/> ;
+    skos:related <https://selinstitute.cz/knihovna/metoda-neznama-situace/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/stoicka-fantasia/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Stoická fantasia (dojem)"@cs ;
+    skos:prefLabel "phantasia"@en ;
+    skos:altLabel "fantasia" ;
+    skos:altLabel "impression" ;
+    skos:definition "Fantasia (dojem) je ve stoické teorii poznání první a zcela nedobrovolná fáze toho, jak se cokoliv dostává do mysli: „otisk“ nebo proměna duše, kterým se věc či myšlenka „jeví“ jako taková a taková, ještě předtím, než k ní mysl cokoliv dobrovolně udělá; zvláštní, „jasný a zřetelný“ typ dojmu (kataleptická fantasie) sloužil stoikům jako kritérium pravdy."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/stoicke-prosoche-a-sunkatathesis/> ;
+    skos:related <https://selinstitute.cz/knihovna/stoicka-propatheia/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/stoicka-propatheia/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Stoická propatheia (první pohnutí)"@cs ;
+    skos:prefLabel "propatheia"@en ;
+    skos:altLabel "první pohnutí" ;
+    skos:altLabel "propassio" ;
+    skos:altLabel "first movements" ;
+    skos:altLabel "pre-passion" ;
+    skos:definition "Stoický a pozdější patristický pojem pro nedobrovolné, čistě tělesné „první pohnutí“ (zblednutí leknutím, slzy, mrazení), které předchází racionálnímu úsudku a samo o sobě ještě není emocí ani vinou; emoce vzniká až tím, že k pohnutí přitaká rozum."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/stoicke-prosoche-a-sunkatathesis/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/stoicke-prosoche-a-sunkatathesis/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Stoické prosoché a sunkatathesis (pozornost a přitakání)"@cs ;
+    skos:altLabel "prosoché" ;
+    skos:altLabel "sunkatathesis" ;
+    skos:altLabel "synkatathesis" ;
+    skos:altLabel "prosochē" ;
+    skos:altLabel "přitakání" ;
+    skos:definition "Stoická dvojice pojmů: prosoché je kázeň neustálé pozornosti k vlastním dojmům (fantasiai), sunkatathesis (přitakání) je dobrovolný krok, kterým mysl k dojmu buď přisvědčí jako ke správnému soudu, nebo ho odmítne. V té mezeře mezi dojmem a přitakáním stoikové hledali jádro lidské svobody a odpovědnosti."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/stoicka-propatheia/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/styly-citove-vazby-v-dospelosti/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Attachmentové styly v dospělosti (Hazan & Shaver, Bartholomew & Horowitz)"@cs ;
+    skos:prefLabel "adult attachment styles"@en ;
+    skos:altLabel "styly citové vazby v dospělosti" ;
+    skos:altLabel "adult romantic attachment" ;
+    skos:definition "Myšlenka, že si dospělí lidé v blízkých (zejména romantických) vztazích udržují rozpoznatelný vztahový vzorec - attachmentový styl -, obvykle zjišťovaný sebeposuzovacím dotazníkem a klasifikovaný buď do tří (Hazan & Shaver, 1987), nebo do čtyř kategorií (Bartholomew & Horowitz, 1991)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-attachmentu/> ;
+    skos:related <https://selinstitute.cz/knihovna/metoda-neznama-situace/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/syndrom-vyhoreni/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Syndrom vyhoření"@cs ;
+    skos:prefLabel "burnout syndrome"@en ;
+    skos:altLabel "vyhoření" ;
+    skos:altLabel "burnout" ;
+    skos:altLabel "occupational burnout" ;
+    skos:altLabel "job burnout" ;
+    skos:altLabel "burn-out" ;
+    skos:definition "Syndrom vyhoření je stav emočního a psychického (a částečně tělesného) vyčerpání vznikající z dlouhodobého, nezvládnutého stresu, typicky v práci – popisuje se jako tři propojené složky: vyčerpání, odtažitost/cynismus k práci a lidem kolem a snížený pocit vlastní výkonnosti."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/chronicky-stres/> ;
+    skos:related <https://selinstitute.cz/knihovna/obecny-adaptacni-syndrom/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/teorie-attachmentu/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Teorie attachmentu (John Bowlby, Mary Ainsworth)"@cs ;
+    skos:prefLabel "attachment theory"@en ;
+    skos:altLabel "Teorie vztahové vazby" ;
+    skos:altLabel "Teorie citové vazby" ;
+    skos:definition "Soubor tvrzení Johna Bowlbyho a Mary Ainsworthové, podle nichž si kojenec vytváří k pečující osobě vrozeně motivovaný, evolučně zakotvený vztahový vzorec (jistý nebo nejistý), který lze pozorovat a klasifikovat a který má doložený, byť mírný, vliv na pozdější socioemoční vývoj."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/jista-zakladna/> ;
+    skos:related <https://selinstitute.cz/knihovna/metoda-neznama-situace/> ;
+    skos:related <https://selinstitute.cz/knihovna/vnitrni-pracovni-modely/> ;
+    skos:related <https://selinstitute.cz/knihovna/styly-citove-vazby-v-dospelosti/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/teorie-mysli/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Teorie mysli"@cs ;
+    skos:prefLabel "theory of mind"@en ;
+    skos:altLabel "mindreading" ;
+    skos:definition "Teorie mysli je schopnost přisuzovat sobě i druhým lidem vlastní, od vlastních odlišné duševní stavy – přesvědčení, záměry, přání, znalosti – a na základě toho předvídat jejich chování; pojem do psychologie zavedli David Premack a Guy Woodruff v roce 1978."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/empatie/> ;
+    skos:related <https://selinstitute.cz/knihovna/socialni-uvedomeni/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/teorie-sebeurceni/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Teorie sebeurčení (Edward Deci a Richard Ryan)"@cs ;
+    skos:prefLabel "Self-Determination Theory"@en ;
+    skos:altLabel "teorie sebeurčení" ;
+    skos:altLabel "SDT" ;
+    skos:definition "Široká, organismická makro-teorie lidské motivace a osobnosti, kterou od počátku 70. let rozvíjeli Edward L. Deci (zemřel v roce 2026) a Richard M. Ryan: lidé mají vrozenou tendenci k růstu a integraci, která se uplatní nebo potlačí podle toho, nakolik sociální prostředí podporuje autonomii, kompetenci a sounáležitost; teorie se dnes dělí na šest dílčích miniteorií."@cs ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/teorie-sebeurceni-ve-vztazich/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Teorie sebeurčení jako fundamentální teorie blízkých vztahů (La Guardia a Patrick, 2008)"@cs ;
+    skos:prefLabel "Self-determination theory as a fundamental theory of close relationships"@en ;
+    skos:definition "Přehledová práce Jennifer G. La Guardia a Heather Patrick (2008), podle níž teorie sebeurčení (SDT) poskytuje motivační rámec pro porozumění blízkým vztahům: vztah prospívá člověku i vztahu samotnému hlavně tehdy, když partner podporuje naplnění tří základních psychologických potřeb (autonomie, kompetence a sounáležitosti) a když lidé jednají ve vztahu z vlastních, autonomních důvodů."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-sebeurceni/> ;
+    skos:related <https://selinstitute.cz/knihovna/tri-zakladni-psychologicke-potreby/> ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-attachmentu/> ;
+    skos:related <https://selinstitute.cz/knihovna/potreba-sounalezitosti/> ;
+    skos:related <https://selinstitute.cz/knihovna/social-baseline-theory/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/tonicka-imobilita/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Tonická imobilita"@cs ;
+    skos:prefLabel "Tonic immobility"@en ;
+    skos:altLabel "zvířecí hypnóza" ;
+    skos:altLabel "animal hypnosis" ;
+    skos:altLabel "death feigning" ;
+    skos:altLabel "thanatosis" ;
+    skos:definition "Reflexní stav hluboké tělesné nehybnosti, který podle evolučního rámce Gordona Gallupa a Jacka Masera (1977) nastává při kombinaci extrémního, neodvratitelného ohrožení a pocitu fyzického spoutání nebo nemožnosti uniknout; u lidí se teorie uplatňuje především na reakce obětí sexuálního napadení."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/dorzalni-vagovy-komplex/> ;
+    skos:related <https://selinstitute.cz/knihovna/reakce-boj-nebo-utek/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/tri-zakladni-psychologicke-potreby/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Tři základní psychologické potřeby (Self-Determination Theory)"@cs ;
+    skos:prefLabel "basic psychological needs"@en ;
+    skos:altLabel "základní psychologické potřeby" ;
+    skos:altLabel "základní psychické potřeby" ;
+    skos:altLabel "basic psychological needs theory" ;
+    skos:definition "Jádrové tvrzení teorie sebeurčení (SDT): člověk má tři vrozené, univerzální psychologické potřeby (autonomii, kompetenci a sounáležitost) a jejich naplnění je podmínkou psychické pohody a vnitřně motivovaného jednání bez ohledu na kulturu nebo oblast života."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-sebeurceni/> ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-a-kontrolovana-motivace/> ;
+    skos:related <https://selinstitute.cz/knihovna/podpora-autonomie/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/vagalni-tonus/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Vagální tonus (tonus vagu)"@cs ;
+    skos:prefLabel "Vagal tone"@en ;
+    skos:altLabel "tonus vagu" ;
+    skos:altLabel "cardiac vagal tone" ;
+    skos:definition "Míra toho, jak silně a pohotově desátý hlavový nerv (bloudivý nerv, nervus vagus) v klidu brzdí srdeční tep a ovlivňuje činnost útrobních orgánů; v praxi se nejčastěji měří nepřímo přes kolísání srdečního tepu s dechem (respirační sinusová arytmie, RSA) jako součást variability srdeční frekvence (HRV)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/ventralni-vagovy-komplex/> ;
+    skos:related <https://selinstitute.cz/knihovna/dorzalni-vagovy-komplex/> ;
+    skos:related <https://selinstitute.cz/knihovna/polyvagalni-teorie/> ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-nervovy-system/> ;
+    skos:related <https://selinstitute.cz/knihovna/psychicka-odolnost/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/ventralni-vagovy-komplex/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Ventrální vagový komplex (systém sociálního zapojení)"@cs ;
+    skos:prefLabel "Ventral vagal complex"@en ;
+    skos:altLabel "Social Engagement System" ;
+    skos:altLabel "systém sociálního zapojení" ;
+    skos:altLabel "ventral vagus" ;
+    skos:altLabel "ventrální vagus" ;
+    skos:definition "Podle polyvagální teorie Stephena Porgese nejnovější, u savců se vyskytující větev desátého hlavového nervu (myelinizovaný vagus vycházející z nucleus ambiguus), která v klidovém, bezpečném stavu brzdí poplachové reakce těla a společně s dalšími hlavovými nervy umožňuje mimiku, naslouchání a tón hlasu – tedy to, co Porges nazývá systémem sociálního zapojení."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/polyvagalni-teorie/> ;
+    skos:related <https://selinstitute.cz/knihovna/neurocepce/> ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-nervovy-system/> ;
+    skos:related <https://selinstitute.cz/knihovna/koregulace/> ;
+    skos:related <https://selinstitute.cz/knihovna/interocepce/> ;
+    skos:related <https://selinstitute.cz/knihovna/reakce-boj-nebo-utek/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/vnitrni-pracovni-modely/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Vnitřní pracovní modely (John Bowlby)"@cs ;
+    skos:prefLabel "internal working models"@en ;
+    skos:altLabel "internal working model of attachment" ;
+    skos:altLabel "attachment working models" ;
+    skos:definition "Pojem z teorie attachmentu pro mentální reprezentace sebe a druhých - naučená očekávání o tom, jak blízké vztahy fungují -, které si člověk vytváří v raných vztazích s pečujícími osobami a dál podle nich (většinou nevědomě) předvídá chování druhých a reaguje v pozdějších vztazích, včetně partnerských v dospělosti."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-attachmentu/> ;
+    skos:related <https://selinstitute.cz/knihovna/styly-citove-vazby-v-dospelosti/> ;
+    skos:related <https://selinstitute.cz/knihovna/metoda-neznama-situace/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/vyhybani-se-zkusenosti/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Vyhýbání se zkušenosti (experiential avoidance)"@cs ;
+    skos:prefLabel "Experiential avoidance"@en ;
+    skos:definition "Konstrukt z terapie přijetí a závazku (Acceptance and Commitment Therapy, ACT): neochota zůstat v kontaktu s nepříjemnými myšlenkami, pocity, vzpomínkami nebo tělesnými pocity a snaha se jim vyhnout, utlumit je nebo je změnit, i za cenu zúžení vlastního jednání. Hayes, Wilson, Gifford, Follette a Strosahl (1996) ho popsali jako mechanismus společný řadě odlišných psychických potíží."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/psychologicka-flexibilita/> ;
+    skos:related <https://selinstitute.cz/knihovna/kognitivni-defuze/> ;
+    skos:related <https://selinstitute.cz/knihovna/akceptace/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/vyvojova-intersubjektivita/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Vývojová intersubjektivita (Trevarthen, Stern)"@cs ;
+    skos:prefLabel "infant intersubjectivity"@en ;
+    skos:altLabel "innate intersubjectivity" ;
+    skos:definition "Teorie novozélandského vývojového psychologa Colwyna Trevarthena, který dlouho působil na Edinburské univerzitě, dál rozpracovaná Danielem Sternem: kojenec se už od narození citově a pozorností aktivně naladí na pečující osobu v konverzaci podobné výměně (primární intersubjektivita, „proto-konverzace“) a kolem konce prvního roku věku tahle schopnost přerůstá ve schopnost sdílet pozornost k věcem kolem (sekundární intersubjektivita) jako základ pro vznik řeči."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/intersubjektivita/> ;
+    skos:related <https://selinstitute.cz/knihovna/afektivni-souladeni/> ;
+    skos:related <https://selinstitute.cz/knihovna/sdilena-pozornost/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/vztahove-dovednosti/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Vztahové dovednosti (CASEL)"@cs ;
+    skos:prefLabel "relationship skills"@en ;
+    skos:definition "Vztahové dovednosti jsou jedna z pěti kompetencí rámce CASEL 5 – schopnost navazovat a udržovat zdravé, podpůrné vztahy a pohybovat se v prostředích s různorodými lidmi a skupinami, včetně komunikace, spolupráce, konstruktivního řešení konfliktů a vedení."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/casel-ramec/> ;
+    skos:related <https://selinstitute.cz/knihovna/socialni-uvedomeni/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/wcq/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Work Climate Questionnaire (WCQ)"@cs ;
+    skos:prefLabel "Work Climate Questionnaire"@en ;
+    skos:definition "Sebeposuzovací dotazník z teorie sebeurčení (Self-Determination Theory, SDT), kterým zaměstnanec hodnotí, jak moc vnímá svého manažera jako podporujícího jeho autonomii. Existuje jako patnáctipoložková dlouhá verze a šestipoložková krátká verze; je sesterským nástrojem k Health Care Climate Questionnaire (HCCQ) a Learning Climate Questionnaire (LCQ)."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/podpora-autonomie/> ;
+    skos:related <https://selinstitute.cz/knihovna/hccq/> ;
+    skos:related <https://selinstitute.cz/knihovna/lcq/> ;
+    skos:related <https://selinstitute.cz/knihovna/teorie-sebeurceni/> ;
+    dct:modified "2026-11-09" .
+
+<https://selinstitute.cz/knihovna/yerkesuv-dodsonuv-zakon/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Yerkesův–Dodsonův zákon"@cs ;
+    skos:prefLabel "Yerkes–Dodson law"@en ;
+    skos:altLabel "Yerkes-Dodsonův zákon" ;
+    skos:altLabel "inverted-U hypothesis" ;
+    skos:definition "Yerkesův–Dodsonův zákon popisuje vztah mezi mírou fyziologické aktivace (arousal) a výkonem jako obrácené písmeno U – výkon s rostoucí aktivací nejprve stoupá, ale po překročení určité míry klesá; vychází z experimentu na myších z roku 1908 a jeho platnost pro lidský výkon je dnes mezi psychology diskutovaná."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/autonomni-nervovy-system/> ;
+    dct:modified "2026-11-08" .
+
+<https://selinstitute.cz/knihovna/zodpovedne-rozhodovani/> a skos:Concept ;
+    skos:inScheme <https://selinstitute.cz/knihovna/> ;
+    skos:prefLabel "Zodpovědné rozhodování (CASEL)"@cs ;
+    skos:prefLabel "Responsible Decision-Making"@en ;
+    skos:definition "Zodpovědné rozhodování je jedna z pěti kompetencí rámce CASEL 5 – schopnost dělat o vlastním chování a sociálních interakcích rozhodnutí, která zvažují etické normy, bezpečnost a důsledky pro sebe i pro druhé."@cs ;
+    skos:related <https://selinstitute.cz/knihovna/casel-ramec/> ;
+    skos:related <https://selinstitute.cz/knihovna/sebeuvedomeni/> ;
+    skos:related <https://selinstitute.cz/knihovna/metakognitivni-uvedomeni/> ;
+    dct:modified "2026-11-09" .
