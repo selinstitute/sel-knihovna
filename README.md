@@ -25,7 +25,7 @@ doložený.
 
 Citujte verzi knihovny (DOI) a adresu konkrétního hesla na webu, například:
 
-> SEL Institute, z. s. (2026). *SEL Library: referenční slovník pojmů sociálně-emočního učení* (verze 2026.11). Zenodo. DOI viz Zenodo
+> SEL Institute, z. s. (2026). *SEL Library: referenční slovník pojmů sociálně-emočního učení* (verze 2026.11). Zenodo. https://doi.org/10.5281/zenodo.24089935
 
 ## Licence
 
